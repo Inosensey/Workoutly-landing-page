@@ -1,0 +1,147 @@
+.container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  font-family: "Open-Sans";
+}
+.container h2 {
+  color: #ff7777;
+  font-size: 1.9rem;
+  font-weight: 600;
+  width: max-content;
+  margin: 2rem auto 0 auto;
+}
+.content {
+  display: flex;
+  margin: 2rem 0 0 0;
+  height: 77%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 6rem;
+}
+.imgContainer {
+  width: 35%;
+  height: 100%;
+  position: relative;
+  align-items: center;
+}
+.servicesContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+}
+.services {
+  width: 65%;
+  font-family: "Open-Sans";
+}
+.services h3 {
+  font-size: 1.3rem;
+  color: #ff7777;
+}
+.services p {
+  color: #b6b6b6;
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+  line-height: 1.8rem;
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    height: 450px;
+  }
+  .container h2 {
+    font-size: 1.5rem;
+  }
+  .content {
+    margin: 1rem 0 0 0;
+  }
+  .imgContainer {
+    width: 40%;
+  }
+  .servicesContainer {
+    width: 50%;
+  }
+  .services {
+    width: 75%;
+  }
+  .services h3 {
+    font-size: 1.1rem;
+  }
+  .services p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  .imgContainer {
+    width: 40%;
+  }
+  .servicesContainer {
+    width: 60%;
+  }
+  .services {
+    width: 80%;
+  }
+  .services h3 {
+    font-size: 1.1rem;
+  }
+  .services p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .imgContainer {
+    width: 40%;
+  }
+  .servicesContainer {
+    width: 60%;
+  }
+  .services {
+    width: 80%;
+  }
+  .services h3 {
+    font-size: 1rem;
+  }
+  .services p {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .content {
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+  }
+  .imgContainer {
+    display: none;
+  }
+  .servicesContainer {
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+  .services {
+    width: 60%;
+  }
+  .services h3 {
+    font-size: 1.1rem;
+  }
+  .services p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container h2 {
+    font-size: 1.3rem;
+  }
+  .services {
+    width: 70%;
+  }
+  .services h3 {
+    font-size: 1rem;
+  }
+  .services p {
+    font-size: 0.8rem;
+  }
+}

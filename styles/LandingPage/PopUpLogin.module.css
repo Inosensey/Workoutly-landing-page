@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.headerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.4rem 0 0 0;
+  gap: 0.3rem;
+}
+.headerContainer h3 {
+  font-size: 1.6rem;
+  font-family: "Anton";
+  color: #343634;
+}
+.headerContainer p {
+  color: #999999;
+  font-size: 0.8rem;
+  width: 75%;
+  text-align: center;
+  font-family: "Open-Sans";
+}
+.loginForm {
+  width: 30%;
+  height: 90%;
+  position: relative;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+.logoContainer {
+  width: 25%;
+  height: 40px;
+  position: relative;
+}
+.loginForm i {
+  top: 2%;
+  right: 5%;
+  font-size: 1.5rem;
+  position: absolute;
+  cursor: pointer;
+}
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0 0 0;
+  gap: 1.5rem;
+}
+.buttonContainer {
+  margin: 2rem 0 0 0;
+  width: 25%;
+}
+.buttonContainer button {
+  font-family: "Anton";
+}
+
+@media screen and (max-width: 860px) {
+  .loginForm {
+    width: 50%;
+  }
+  .headerContainer p {
+    color: #999999;
+    font-size: 0.8rem;
+    width: 80%;
+    text-align: center;
+    font-family: "Open-Sans";
+  }
+  .buttonContainer {
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loginForm {
+    width: 90%;
+  }
+}

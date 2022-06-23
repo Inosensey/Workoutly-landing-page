@@ -1,0 +1,121 @@
+.blogSubscriptionContainer {
+  background-color: #1e292b;
+  width: 80%;
+  height: 400px;
+  margin: 4rem auto 0 auto;
+  padding: 2rem 0 0 0;
+}
+.blogSubscriptionTexts {
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
+.blogSubscriptionTexts h2 {
+  color: #ff7777;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.blogSubscriptionTexts p {
+  color: #b6b6b6;
+  font-size: 1.4rem;
+  margin: 1rem 0 0 0;
+  line-height: 2.2rem;
+}
+.blogSubscriptionInput {
+  width: 55%;
+  margin: 5rem auto 0 auto;
+  padding: 0 0.5rem 0 2rem;
+  height: 20%;
+  border-radius: 45px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogSubscriptionInput input {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #1e292b;
+  outline: none;
+  width: 70%;
+}
+.blogSubscriptionInput input::placeholder {
+  color: #ff7777;
+}
+.blogSubscriptionInput button {
+  border: none;
+  background-color: #ff7777;
+  color: #ffffff;
+  border-radius: 45px;
+  width: 28%;
+  height: 85%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+  .blogSubscriptionContainer {
+    height: 350px;
+    margin: 3rem auto 0 auto;
+  }
+  .blogSubscriptionTexts h2 {
+    font-size: 1.5rem;
+  }
+  .blogSubscriptionTexts p {
+    font-size: 1rem;
+  }
+  .blogSubscriptionInput {
+    width: 65%;
+  }
+  .blogSubscriptionInput input {
+    font-size: 1rem;
+  }
+  .blogSubscriptionInput button {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  .blogSubscriptionContainer {
+    height: 350px;
+    margin: 3rem auto 0 auto;
+  }
+  .blogSubscriptionTexts h2 {
+    font-size: 1.3rem;
+  }
+  .blogSubscriptionTexts p {
+    font-size: 0.9rem;
+  }
+  .blogSubscriptionInput {
+    width: 65%;
+  }
+  .blogSubscriptionInput input {
+    font-size: 0.9rem;
+  }
+  .blogSubscriptionInput button {
+    font-size: 0.9rem;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .blogSubscriptionContainer {
+    width: 90%;
+  }
+  .blogSubscriptionTexts {
+    width: 75%;
+  }
+  .blogSubscriptionInput {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .blogSubscriptionContainer {
+    width: 95%;
+  }
+  .blogSubscriptionInput {
+    width: 85%;
+  }
+  .blogSubscriptionInput button {
+    width: 35%;
+  }
+}

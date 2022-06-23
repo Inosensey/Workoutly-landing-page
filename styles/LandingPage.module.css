@@ -1,0 +1,91 @@
+/* Header Component */
+.header {
+  height: 625px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  background-image: url("/images/header-background-1.jpg");
+  position: relative;
+}
+.HeaderText {
+  width: 50%;
+  color: #4f6c6b;
+  width: 34%;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: translate(-15%, -45%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.HeaderText h2 {
+  font-size: 2.9rem;
+}
+.HeaderText p {
+  font-size: 1.5rem;
+}
+.HeaderText span {
+  color: #ff7777;
+  font-family: "Anton";
+}
+.HeaderText button {
+  background: #ff7777;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  width: 25%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Open-Sans-Semi";
+}
+
+/* Nav Component */
+.nav {
+  padding: 1rem 0;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SiteNameContainer {
+  display: flex;
+  align-items: center;
+  width: 14%;
+  justify-content: space-between;
+}
+.SiteNameContainer h2 {
+  font-family: "Open-Sans-Bold";
+  background-image: linear-gradient(to bottom, #4f6c6b, #ff7777);
+  background-clip: text;
+  color: transparent;
+}
+.choices {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.choices li {
+  font-family: "Open-Sans";
+  font-size: 1rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.choices li:hover {
+  color: #ff7777;
+}
+
+.nav button {
+  border: 2px solid #ff7777;
+  background: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 12%;
+  color: #ff7777;
+  cursor: pointer;
+  font-size: 1rem;
+}

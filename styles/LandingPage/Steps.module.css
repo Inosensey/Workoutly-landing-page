@@ -1,0 +1,145 @@
+.container {
+  width: 100%;
+  height: 500px;
+  margin: 4rem 0 0 0;
+  overflow: hidden;
+  font-family: "Open-Sans";
+}
+.stepsTitleContainer {
+  width: max-content;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+}
+.stepsTitleContainer h2 {
+  color: #ff7777;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+.stepsTitleContainer p {
+  color: #b6b6b6;
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0 0;
+}
+.stepsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85%;
+  padding: 0 2rem;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 15%;
+  height: 60%;
+}
+.stepNumber {
+  width: max-content;
+  padding: 0.6rem 1rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #ff7777;
+  font-size: 1.5rem;
+  font-family: "Open-Sans-Bold";
+}
+.steps h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ff7777;
+}
+.steps p {
+  font-size: 1rem;
+  color: #acacac;
+  line-height: 1.8rem;
+}
+.arrow {
+  width: 70px;
+}
+.line {
+  margin-top: 11px;
+  width: 45px;
+  background: #ff7777;
+  height: 8px;
+  float: left;
+}
+.point {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #ff7777;
+  float: right;
+}
+
+@media screen and (max-width: 860px) {
+  .container {
+    height: 1200px;
+    margin: 3rem 0 0 0;
+  }
+  .stepsTitleContainer {
+    margin: 0.5rem auto 0 auto;
+  }
+  .stepsTitleContainer h2 {
+    font-size: 1.5rem;
+  }
+  .stepsTitleContainer p {
+    font-size: 1rem;
+  }
+  .stepsContainer {
+    justify-content: space-around;
+    align-items: center;
+    height: 85%;
+    margin: 2rem 0 0 0;
+    flex-direction: column;
+  }
+  .steps {
+    width: 35%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+  .stepNumber {
+    font-size: 1.2rem;
+  }
+  .steps h4 {
+    font-size: 1rem;
+  }
+  .steps p {
+    font-size: 0.86rem;
+    text-align: center;
+  }
+  .arrow {
+    width: 70px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    transform: rotate(90deg);
+  }
+  .point {
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 570px) {
+  .container {
+    height: 1300px;
+  }
+  .steps {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .stepsTitleContainer h2 {
+    font-size: 1.2rem;
+  }
+  .stepsTitleContainer p {
+    font-size: 0.9 rem;
+  }
+  .steps {
+    width: 65%;
+  }
+}
