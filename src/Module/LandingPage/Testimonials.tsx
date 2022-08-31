@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../../../styles/LandingPage/Testimonials.module.css";
 import TestimonialCard from "./TestimonialCard";
 
