@@ -15,6 +15,7 @@ function Blog() {
           BlogTitle="How important for your health to start exercising"
           PosterName="Philip Mathew"
           BlogDate="May 4, 2022"
+          LinkUrl="https://workoutly-blog.vercel.app/posts/how-important-for-your-health-to-start-exercising"
         />
         <BlogCards
           ImgSrc="/images/exercise-benefits.jpg"
@@ -22,6 +23,7 @@ function Blog() {
           BlogTitle="The benefits of living a healthy life style"
           PosterName="Philip Mathew"
           BlogDate="May 4, 2022"
+          LinkUrl="https://workoutly-blog.vercel.app/posts/the-benefits-of-living-a-healthy-lifestyle"
         />
         <BlogCards
           ImgSrc="/images/athlete-mindset.jpg"
@@ -29,6 +31,7 @@ function Blog() {
           BlogTitle="Think like an athelete: How mindset affect our workouts"
           PosterName="Philip Mathew"
           BlogDate="May 4, 2022"
+          LinkUrl="https://workoutly-blog.vercel.app/posts/how-mindset-affect-our-workouts"
         />
       </div>
     </section>
